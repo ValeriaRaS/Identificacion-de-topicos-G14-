@@ -26,6 +26,8 @@ Este documento contiene los resultados del análisis exploratorio de datos.
 
 **Variables adicionales:** Como variables adicionales, utilizaremos el score (variable cuantitativa discreta), el cupon (variable cuantitativa discreta) y la fecha en formato MM-yyyy de la review.
 
+Images/Histogram_scoresbycategory.png
+
 ## Ranking de variables
 
 En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
