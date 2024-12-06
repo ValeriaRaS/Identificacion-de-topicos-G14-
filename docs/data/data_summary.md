@@ -24,14 +24,19 @@ Este documento contiene los resultados del análisis exploratorio de datos.
 
 ## Variables individuales
 
-**Variables adicionales:** Como variables adicionales, utilizaremos el score (variable cuantitativa discreta), el cupon (variable cuantitativa discreta) y la fecha en formato MM-yyyy de la review.
+Como variables utilizaremos el score (variable cuantitativa discreta), el cupon (variable cuantitativa discreta) y la fecha en formato MM-yyyy de la review.
 
 ![Histograma](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/Images/Histogram_scoresbycategory.png)
+![Histograma](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/Images/Graficopastel_cupones.png)
+![Histograma](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/Images/TimeSeries_Fecha.png)
 
 ## Ranking de variables
-
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
+Dado que no hay una variable objetivo, se procedió a analizar la relación entre variables individuales.
 
 ## Relación entre variables explicativas y variable objetivo
 
-En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
+Exploramos si hay algun favoritismo dentro de cada score con estar relacionado o no con un cupon. Sin embargo, encontramos que la distribución dentro de cada score de reviews con y sin cupon no tiene diferencias siginificativas.
+
+Hasta el momento no se han encontrado redundancias entre las variables que nos interesan para el análisis de identificacion de tópicos.
+
+![Histograma](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/Images/TablaContingencia.png)
