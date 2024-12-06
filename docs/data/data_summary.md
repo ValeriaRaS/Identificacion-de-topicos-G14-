@@ -26,7 +26,7 @@ Este documento contiene los resultados del análisis exploratorio de datos.
 
 **Variables adicionales:** Como variables adicionales, utilizaremos el score (variable cuantitativa discreta), el cupon (variable cuantitativa discreta) y la fecha en formato MM-yyyy de la review.
 
-Images/Histogram_scoresbycategory.png
+![Histograma](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/Images/Histogram_scoresbycategory.png)
 
 ## Ranking de variables
 
