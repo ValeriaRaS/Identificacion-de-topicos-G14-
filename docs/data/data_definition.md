@@ -6,20 +6,16 @@
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+- scripts/data_acquisition/data_acquisition.ipynb
 
 ## Referencias a rutas o bases de datos origen y destino
 
-- [ ] Especificar las rutas o bases de datos de origen y destino para los datos.
+- Snowflake / DDV / ecommerce / country / nps (Ruta de acceso a los datos es confidencial)
 
 ### Rutas de origen de datos
 
-- [ ] Especificar la ubicación de los archivos de origen de los datos.
-- [ ] Especificar la estructura de los archivos de origen de los datos.
-- [ ] Describir los procedimientos de transformación y limpieza de los datos.
+- Extracción de la tabla de datos en formato .csv con 208.191 comentarios asociados a pedidos realizados entre 2023-1 y 2024-9.
 
 ### Base de datos de destino
 
-- [ ] Especificar la base de datos de destino para los datos.
-- [ ] Especificar la estructura de la base de datos de destino.
-- [ ] Describir los procedimientos de carga y transformación de los datos en la base de datos de destino.
+-  Snowflake / DDV / ecommerce / country / Modelo NLP 
