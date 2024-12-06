@@ -4,19 +4,27 @@ Este documento contiene los resultados del análisis exploratorio de datos.
 
 ## Resumen general de los datos
 
-En esta sección se presenta un resumen general de los datos. Se describe el número total de observaciones, variables, el tipo de variables, la presencia de valores faltantes y la distribución de las variables.
+**Composición del corpus:** El corpus esta constituido por un total de 206.268 documentos con un peso aproximado de 41 MB
+
+**Idioma:** Los documentos en su gran mayoría estan escritos en Español. Algunos unicamente tienen caracteres especiales o incluso emojis. Estos se trabajaran posteriormente en la limpieza del corpus.
+
+**Relación entre los documentos:** Los documentos del corpus se relacionan entre si, ya que todos son valoraciónes, comentarios y opiniones sobre el mismo e-commerce de la compañia DDV.
 
 ## Resumen de calidad de los datos
 
-En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
+**Documentos vacíos:** Debido a que incluir un comentario dentro de la review es opcional, el corpus cuenta con varios documentos vacios. En total son 121.338 (59%) las reviews que no cuentan con algun comentario entre el 2023 y 2024.
+
+**Documentos ilegibles:** Debido a que los usuarios realizan los comentarios por medio de un dispositivo movil, este le permite ingresar caracteres especiales como los emojis, dando asi problemas en la codificacion de los documentos. En total, se tienen 1.472 comentarios con alguno de estos caracteres.
+
+**Mezcla de idiomas:** Se espera que el corpus este completamente en español debido al contexto del proyecto.
 
 ## Variable objetivo
 
-En esta sección se describe la variable objetivo. Se muestra la distribución de la variable y se presentan gráficos que permiten entender mejor su comportamiento.
+**Variable objetivo:** Ya que el problema que se quiere solucionar, es de análisis no supervizado, el corpus no tiene una variable objetivo a estimar.
 
 ## Variables individuales
 
-En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+**Variables adicionales:** Como variables adicionales, utilizaremos el score (variable cuantitativa discreta), el cupon (variable cuantitativa discreta) y la fecha en formato MM-yyyy de la review.
 
 ## Ranking de variables
 
