@@ -2,7 +2,7 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+- Comentarios de los pedidos realizados a través de la aplicación y almacenados en una tabla cargada en el ambiente de Snowflake de la compañía DDV.
 
 ## Especificación de los scripts para la carga de datos
 
