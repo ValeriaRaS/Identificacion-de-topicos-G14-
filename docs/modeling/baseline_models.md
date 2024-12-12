@@ -12,6 +12,9 @@ Modelo: **LDA**
 
 Utilizamos el modelo LDA dado que asume que los documentos (comentarios) son una mezcla de temas, y cada tema es una distribución de palabras, de esta manera se pueden calcular las probabilidades de las palabras en cada tópico y en cada documento. Generando temas más claramente diferenciados, que a su vez facilita la interpretación de los resultados. Ademas, como los comentarios tienden a centrarse en varios temas concretos y no tanto en el significado más profundo de las palabras, LDA puede ser más eficaz.
 
+## Otros modelos
+Para este proyecto aparte del modelo baseline se busco desarrollar, para encontrar mas resultados y mayor informacion, un modelo Bertopic, usando como base el embedding FastText. Sin embargo, debido a limitantes de tiempo, no logramos completarlo/revisarlo completamente. 
+
 ## Variables de entrada
 
 Los modelos de tópicos, en especial el LDA, se aplica sobre representaciones basadas en bolsas de palabras. Asi que comenzamos por entrenar vectorizadores para conteo de palabras, siendo asi nuestra unica variable de entrada cada comentario.
