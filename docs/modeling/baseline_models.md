@@ -4,36 +4,34 @@ Este documento contiene los resultados del modelo baseline.
 
 ## Descripción del modelo
 
-El modelo baseline es el primer modelo construido y se utiliza para establecer una línea base para el rendimiento de los modelos posteriores.
+Tipo de modelo seleccionado: **Modelos de Tópicos**
+
+Elegimos este tipo de modelo no supervisado dado que esta aproximación nos ayuda a identificar los temas principales que se discuten en los comentarios buenos, medios y bajos (principal objetivo del proyecto). Esto nos da información sobre qué aspectos del servicio son los más importantes para los usuarios y como estos estan asociados con cada nivel de calificacion.
+
+Modelo: **LDA**
+
+Utilizamos el modelo LDA dado que asume que los documentos (comentarios) son una mezcla de temas, y cada tema es una distribución de palabras, de esta manera se pueden calcular las probabilidades de las palabras en cada tópico y en cada documento. Generando temas más claramente diferenciados, que a su vez facilita la interpretación de los resultados. Ademas, como los comentarios tienden a centrarse en varios temas concretos y no tanto en el significado más profundo de las palabras, LDA puede ser más eficaz.
 
 ## Variables de entrada
 
-Lista de las variables de entrada utilizadas en el modelo.
+Los modelos de tópicos, en especial el LDA, se aplica sobre representaciones basadas en bolsas de palabras. Asi que comenzamos por entrenar vectorizadores para conteo de palabras, siendo asi nuestra unica variable de entrada cada comentario.
 
 ## Variable objetivo
 
-Nombre de la variable objetivo utilizada en el modelo.
+Topico o tema principal de los comentarios con puntajes 9 y 10 (altos), con puntajes de 8 o menos (bajos). Y de todos los comentarios, sin importar su calificacion.
 
 ## Evaluación del modelo
 
 ### Métricas de evaluación
 
-Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
+Utilizamos nubes de palabras para encontrar el top 15 de los términos mas comunes dentro de cada tópico. Esto se hizo reiterativamente hasta encontrar los parametros que nos mostraran los temas con mas sentido para el negocio.
 
-### Resultados de evaluación
+### Resultados y Análisis de los resultados
 
-Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
+- Nube de palabras ponderada con la importancia de cada término en un tópico para visualizar mejor los tópicos de todos los comentarios:
 
-## Análisis de los resultados
-
-Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
 
 ## Conclusiones
 
 Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
 
-## Referencias
-
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
-
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
