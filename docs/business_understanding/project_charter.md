@@ -57,6 +57,6 @@ Los Stakeholders de este proyecto son los equipos de marketing y comercial de la
 
 ## Aprobaciones
 
-- Nombre y cargo del aprobador del proyecto: Profesor Jorge Eliecer Camargo Mendoza y Oscar Alberto Bustos
-- [Firma del aprobador]
-- [Fecha de aprobación]
+Nombre y cargo del aprobador del proyecto:  
+- Profesor Jorge Eliecer Camargo Mendoza
+- Profesor Oscar Alberto Bustos
