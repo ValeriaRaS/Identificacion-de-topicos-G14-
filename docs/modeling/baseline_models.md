@@ -28,10 +28,18 @@ Utilizamos nubes de palabras para encontrar el top 15 de los términos mas comun
 
 ### Resultados y Análisis de los resultados
 
-- Nube de palabras ponderada con la importancia de cada término en un tópico para visualizar mejor los tópicos de todos los comentarios:
+- Nube de palabras ponderada con la importancia de cada término en un tópico, para visualizar mejor los temas de todos los comentarios:
+![comentarios](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/docs/modeling/Images/todos_comentarios.png)
 
+- Nube de palabras ponderada con la importancia de cada término en un tópico, para visualizar mejor los temas de los comentarios bajos:
+![bajos](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/docs/modeling/Images/comentarios_bajos.png)
+
+- Nube de palabras ponderada con la importancia de cada término en un tópico, para visualizar mejor los temas de los comentarios altos:
+![altos](https://github.com/ValeriaRaS/Identificacion-de-topicos-G14-/blob/master/docs/modeling/Images/comentarios_altos.png)
 
 ## Conclusiones
 
-Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+*   Logramos analizar los comentarios de los clientes sobre su experiencia con los pedidos realizados a través del e-commerce, utilizando técnicas de procesamiento de lenguaje natural. Este análisis nos permitio identificar los factores que impulsan calificaciones altas y las áreas de mejora asociadas con calificaciones bajas. Lo que permitirá extraer insights estratégicos para la optimización del servicio de e-commerce y la mejora continua de la experiencia del cliente.
+  
+*   Identificamos que era util tomar la informacion del score como variable auxiliar para realizar el analisis de topicos, separando el embedding y el modelo entre comentarios de puntajes altos y de puntajes bajos. Esto fue util pues, primero, los comentarios negativos y positivos tenian tendencias diferentes en: Cantidad de documentos, Cantidad de palabras dentro de cada documento y especificidad de terminos (En los puntajes bajos solian encontrarse palabras mas variadas y ser mas largos, en los puntajes altos habia menor variedad de terminos y comentarios mucho mas concisos). Segundo, al separar los comentarios podiamos entender las diferencias en topicos entre cada uno de ellos, ademas el score ya nos daba informacion del sentimiento positivo o negativo hacia los topicos que encontrabamos.
 
