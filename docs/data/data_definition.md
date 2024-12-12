@@ -13,7 +13,7 @@
 
 ## Especificación de los scripts para la carga de datos
 
-- scripts/data_acquisition/data_acquisition.ipynb
+- scripts/data_acquisition/Data_aquisition_U6.ipynb
 
 ## Referencias a rutas o bases de datos origen y destino
 
